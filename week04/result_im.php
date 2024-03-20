@@ -32,7 +32,6 @@ echo "</td></tr>";
 echo "<tr><td>得知管道</td><td>";
 $count = count($sAct);
 
-// 循环输出所有选项
 for ($i = 0; $i < $count; $i++) {
     if ($i < $count - 1) {
         echo $sAct[$i] . "  ";
